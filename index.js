@@ -33,8 +33,9 @@ $(document).ready(function () {
         $("#hours").text(hour);
         $("#min").text(min);
         $("#sec").text(sec);
+        $("#Period").text(ampm);
         $(document).on("click", function () {
-            console.log("clicked");
+            console.log(ampm);
         });
     };
     getCurrentDate();
